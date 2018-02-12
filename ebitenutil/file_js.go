@@ -37,7 +37,7 @@ func OpenFile(path string) (ReadSeekCloser, error) {
 	var content *js.Object
 	ch := make(chan struct{})
 	req := js.Global.Get("XMLHttpRequest").New()
-	req.Call("open", "GET", path, true)
+	req.Call("open", "GET", "https://cdn.rawgit.com/dave/ebiten/218db3ae/examples/"+path, true)
 	req.Set("responseType", "arraybuffer")
 	req.Call("addEventListener", "load", func() {
 		defer close(ch)
