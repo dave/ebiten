@@ -228,7 +228,7 @@ func outputKeyRectsGo(k map[string]image.Rectangle) error {
 		return err
 	}
 	return tmpl.Execute(f, map[string]interface{}{
-		"BuildTags":   "// +build example",
+		"BuildTags":   "",
 		"License":     license,
 		"KeyRectsMap": k,
 	})
