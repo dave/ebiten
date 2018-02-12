@@ -15,8 +15,8 @@
 package twenty48
 
 import (
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/inpututil"
+	"github.com/dave/ebiten"
+	"github.com/dave/ebiten/inpututil"
 )
 
 // Dir represents a direction.

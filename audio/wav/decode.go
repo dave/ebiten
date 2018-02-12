@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hajimehoshi/ebiten/audio"
-	"github.com/hajimehoshi/ebiten/audio/internal/convert"
+	"github.com/dave/ebiten/audio"
+	"github.com/dave/ebiten/audio/internal/convert"
 )
 
 // Stream is a decoded audio stream.

@@ -60,7 +60,7 @@ import "C"
 import (
 	"fmt"
 
-	"github.com/hajimehoshi/ebiten/internal/jni"
+	"github.com/dave/ebiten/internal/jni"
 )
 
 func impl() float64 {

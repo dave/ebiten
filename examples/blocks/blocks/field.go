@@ -15,7 +15,7 @@
 package blocks
 
 import (
-	"github.com/hajimehoshi/ebiten"
+	"github.com/dave/ebiten"
 )
 
 const maxFlushCount = 20

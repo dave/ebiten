@@ -19,8 +19,8 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/ebitenutil/internal/assets"
+	"github.com/dave/ebiten"
+	"github.com/dave/ebiten/ebitenutil/internal/assets"
 )
 
 type debugPrintState struct {

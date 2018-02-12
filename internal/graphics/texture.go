@@ -15,7 +15,7 @@
 package graphics
 
 import (
-	"github.com/hajimehoshi/ebiten/internal/opengl"
+	"github.com/dave/ebiten/internal/opengl"
 )
 
 type Filter int

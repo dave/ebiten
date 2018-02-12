@@ -28,7 +28,7 @@ package ui
 import "C"
 
 import (
-	"github.com/hajimehoshi/ebiten/internal/devicescale"
+	"github.com/dave/ebiten/internal/devicescale"
 )
 
 func glfwScale() float64 {

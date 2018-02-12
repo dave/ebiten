@@ -18,9 +18,9 @@ import (
 	"image/color"
 	_ "image/png"
 
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/ebitenutil"
-	"github.com/hajimehoshi/ebiten/inpututil"
+	"github.com/dave/ebiten"
+	"github.com/dave/ebiten/ebitenutil"
+	"github.com/dave/ebiten/inpututil"
 )
 
 var imageBackground *ebiten.Image

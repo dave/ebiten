@@ -15,8 +15,8 @@
 package graphics
 
 import (
-	"github.com/hajimehoshi/ebiten/internal/opengl"
-	"github.com/hajimehoshi/ebiten/internal/web"
+	"github.com/dave/ebiten/internal/opengl"
+	"github.com/dave/ebiten/internal/web"
 )
 
 // orthoProjectionMatrix returns an orthogonal projection matrix for OpenGL.

@@ -25,10 +25,10 @@ import (
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/gofont/goregular"
 
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/ebitenutil"
-	"github.com/hajimehoshi/ebiten/inpututil"
-	"github.com/hajimehoshi/ebiten/text"
+	"github.com/dave/ebiten"
+	"github.com/dave/ebiten/ebitenutil"
+	"github.com/dave/ebiten/inpututil"
+	"github.com/dave/ebiten/text"
 )
 
 const (

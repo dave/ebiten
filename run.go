@@ -18,9 +18,9 @@ import (
 	"image"
 	"sync/atomic"
 
-	"github.com/hajimehoshi/ebiten/internal/clock"
-	"github.com/hajimehoshi/ebiten/internal/devicescale"
-	"github.com/hajimehoshi/ebiten/internal/ui"
+	"github.com/dave/ebiten/internal/clock"
+	"github.com/dave/ebiten/internal/devicescale"
+	"github.com/dave/ebiten/internal/ui"
 )
 
 // FPS represents how many times game updating happens in a second (60).
@@ -140,7 +140,7 @@ func Run(f func(*Image) error, width, height int, scale float64, title string) e
 // Different from Run, this function returns immediately.
 //
 // Typically, Ebiten users don't have to call this directly.
-// Instead, functions in github.com/hajimehoshi/ebiten/mobile module call this.
+// Instead, functions in github.com/dave/ebiten/mobile module call this.
 func RunWithoutMainLoop(f func(*Image) error, width, height int, scale float64, title string) <-chan error {
 	ch := make(chan error)
 	go func() {

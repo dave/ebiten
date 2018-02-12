@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hajimehoshi/ebiten/internal/devicescale"
-	"github.com/hajimehoshi/ebiten/internal/opengl"
+	"github.com/dave/ebiten/internal/devicescale"
+	"github.com/dave/ebiten/internal/opengl"
 )
 
 func RunMainThreadLoop(ch <-chan error) error {

@@ -18,8 +18,8 @@ import (
 	_ "image/jpeg"
 	"log"
 
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/ebitenutil"
+	"github.com/dave/ebiten"
+	"github.com/dave/ebiten/ebitenutil"
 )
 
 const (

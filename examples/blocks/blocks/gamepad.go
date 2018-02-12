@@ -17,7 +17,7 @@ package blocks
 import (
 	"fmt"
 
-	"github.com/hajimehoshi/ebiten"
+	"github.com/dave/ebiten"
 )
 
 type virtualGamepadButton int

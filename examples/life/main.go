@@ -28,7 +28,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/hajimehoshi/ebiten"
+	"github.com/dave/ebiten"
 )
 
 // World represents the game state.

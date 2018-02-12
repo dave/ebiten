@@ -18,7 +18,7 @@ import (
 	"math"
 	"testing"
 
-	. "github.com/hajimehoshi/ebiten"
+	. "github.com/dave/ebiten"
 )
 
 func TestGeoMInit(t *testing.T) {

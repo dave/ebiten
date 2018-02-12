@@ -19,9 +19,9 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/ebitenutil"
-	"github.com/hajimehoshi/ebiten/examples/keyboard/keyboard"
+	"github.com/dave/ebiten"
+	"github.com/dave/ebiten/ebitenutil"
+	"github.com/dave/ebiten/examples/keyboard/keyboard"
 )
 
 const (

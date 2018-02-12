@@ -20,8 +20,8 @@ import (
 	"io"
 	"runtime"
 
-	"github.com/hajimehoshi/ebiten/audio"
-	"github.com/hajimehoshi/ebiten/audio/internal/convert"
+	"github.com/dave/ebiten/audio"
+	"github.com/dave/ebiten/audio/internal/convert"
 	"github.com/jfreymuth/oggvorbis"
 )
 

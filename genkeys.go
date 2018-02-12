@@ -28,7 +28,7 @@ import (
 	"strconv"
 	"text/template"
 
-	"github.com/hajimehoshi/ebiten/internal"
+	"github.com/dave/ebiten/internal"
 )
 
 var (
@@ -137,7 +137,7 @@ const ebitenKeysTmpl = `{{.License}}
 package ebiten
 
 import (
-	"github.com/hajimehoshi/ebiten/internal/ui"
+	"github.com/dave/ebiten/internal/ui"
 )
 
 // A Key represents a keyboard key.

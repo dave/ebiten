@@ -15,8 +15,8 @@
 package ebiten
 
 import (
-	"github.com/hajimehoshi/ebiten/internal/affine"
-	"github.com/hajimehoshi/ebiten/internal/restorable"
+	"github.com/dave/ebiten/internal/affine"
+	"github.com/dave/ebiten/internal/restorable"
 )
 
 var (

@@ -28,7 +28,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hajimehoshi/ebiten/internal"
+	"github.com/dave/ebiten/internal"
 )
 
 const (
@@ -331,7 +331,7 @@ func outputExampleContent(e *example) error {
 	}
 
 	out := filepath.Join(examplesDir, e.Name+".js")
-	path := "github.com/hajimehoshi/ebiten/examples/" + e.Name
+	path := "github.com/dave/ebiten/examples/" + e.Name
 	if err := execute("gopherjs", "build", "--tags", "example", "-m", "-o", out, path); err != nil {
 		return err
 	}

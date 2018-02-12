@@ -20,8 +20,8 @@ import (
 	_ "image/png"
 	"log"
 
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/ebitenutil"
+	"github.com/dave/ebiten"
+	"github.com/dave/ebiten/ebitenutil"
 )
 
 const (
@@ -97,7 +97,7 @@ func update(screen *ebiten.Image) error {
 	// Draw each tile with each DrawImage call.
 	// As the source images of all DrawImage calls are always same,
 	// this rendering is done very effectively.
-	// For more detail, see https://godoc.org/github.com/hajimehoshi/ebiten#Image.DrawImage
+	// For more detail, see https://godoc.org/github.com/dave/ebiten#Image.DrawImage
 	const xNum = screenWidth / tileSize
 	for _, l := range layers {
 		for i, t := range l {

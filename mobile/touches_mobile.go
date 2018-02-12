@@ -17,7 +17,7 @@
 package mobile
 
 import (
-	"github.com/hajimehoshi/ebiten/internal/ui"
+	"github.com/dave/ebiten/internal/ui"
 )
 
 type position struct {

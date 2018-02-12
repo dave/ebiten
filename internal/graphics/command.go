@@ -21,10 +21,10 @@ import (
 	"image/color"
 	"math"
 
-	"github.com/hajimehoshi/ebiten/internal/affine"
-	emath "github.com/hajimehoshi/ebiten/internal/math"
-	"github.com/hajimehoshi/ebiten/internal/opengl"
-	"github.com/hajimehoshi/ebiten/internal/sync"
+	"github.com/dave/ebiten/internal/affine"
+	emath "github.com/dave/ebiten/internal/math"
+	"github.com/dave/ebiten/internal/opengl"
+	"github.com/dave/ebiten/internal/sync"
 )
 
 // command represents a drawing command.

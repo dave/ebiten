@@ -24,9 +24,9 @@ import (
 	"os"
 	"testing"
 
-	. "github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/ebitenutil"
-	emath "github.com/hajimehoshi/ebiten/internal/math"
+	. "github.com/dave/ebiten"
+	"github.com/dave/ebiten/ebitenutil"
+	emath "github.com/dave/ebiten/internal/math"
 )
 
 func TestMain(m *testing.M) {

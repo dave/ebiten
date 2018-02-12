@@ -21,8 +21,8 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/ebitenutil"
+	"github.com/dave/ebiten"
+	"github.com/dave/ebiten/ebitenutil"
 )
 
 const (
@@ -142,7 +142,7 @@ func update(screen *ebiten.Image) error {
 	// the actual draw call to GPU is very few since these calls satisfy
 	// some conditions e.g. all the rendering sources and targets are same.
 	// For more detail, see:
-	// https://godoc.org/github.com/hajimehoshi/ebiten#Image.DrawImage
+	// https://godoc.org/github.com/dave/ebiten#Image.DrawImage
 	w, h := ebitenImage.Size()
 	for i := 0; i < sprites.num; i++ {
 		s := sprites.sprites[i]

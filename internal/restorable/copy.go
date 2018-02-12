@@ -20,7 +20,7 @@ import (
 	"image/draw"
 	"runtime"
 
-	"github.com/hajimehoshi/ebiten/internal/math"
+	"github.com/dave/ebiten/internal/math"
 )
 
 // CopyImage copies origImg to a new RGBA image.

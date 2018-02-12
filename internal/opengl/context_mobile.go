@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/hajimehoshi/ebiten/internal/endian"
+	"github.com/dave/ebiten/internal/endian"
 	mgl "golang.org/x/mobile/gl"
 )
 

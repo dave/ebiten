@@ -18,8 +18,8 @@ import (
 	"image"
 	_ "image/png"
 
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/ebitenutil"
+	"github.com/dave/ebiten"
+	"github.com/dave/ebiten/ebitenutil"
 )
 
 var imageBlocks *ebiten.Image

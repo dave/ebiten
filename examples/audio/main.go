@@ -24,12 +24,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/audio"
-	"github.com/hajimehoshi/ebiten/audio/mp3"
-	"github.com/hajimehoshi/ebiten/audio/wav"
-	"github.com/hajimehoshi/ebiten/ebitenutil"
-	"github.com/hajimehoshi/ebiten/inpututil"
+	"github.com/dave/ebiten"
+	"github.com/dave/ebiten/audio"
+	"github.com/dave/ebiten/audio/mp3"
+	"github.com/dave/ebiten/audio/wav"
+	"github.com/dave/ebiten/ebitenutil"
+	"github.com/dave/ebiten/inpututil"
 )
 
 const (

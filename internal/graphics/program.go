@@ -17,8 +17,8 @@ package graphics
 import (
 	"fmt"
 
-	"github.com/hajimehoshi/ebiten/internal/affine"
-	"github.com/hajimehoshi/ebiten/internal/opengl"
+	"github.com/dave/ebiten/internal/affine"
+	"github.com/dave/ebiten/internal/opengl"
 )
 
 // arrayBufferLayoutPart is a part of an array buffer layout.

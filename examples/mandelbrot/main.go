@@ -18,7 +18,7 @@ import (
 	"log"
 	"math"
 
-	"github.com/hajimehoshi/ebiten"
+	"github.com/dave/ebiten"
 )
 
 const (

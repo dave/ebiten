@@ -26,9 +26,9 @@ import (
 	"golang.org/x/image/font"
 	"golang.org/x/image/math/fixed"
 
-	"github.com/hajimehoshi/ebiten"
-	emath "github.com/hajimehoshi/ebiten/internal/math"
-	"github.com/hajimehoshi/ebiten/internal/sync"
+	"github.com/dave/ebiten"
+	emath "github.com/dave/ebiten/internal/math"
+	"github.com/dave/ebiten/internal/sync"
 )
 
 var (

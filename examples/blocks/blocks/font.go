@@ -23,9 +23,9 @@ import (
 	"github.com/golang/freetype/truetype"
 	"golang.org/x/image/font"
 
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/ebitenutil"
-	"github.com/hajimehoshi/ebiten/text"
+	"github.com/dave/ebiten"
+	"github.com/dave/ebiten/ebitenutil"
+	"github.com/dave/ebiten/text"
 )
 
 const (

@@ -18,7 +18,7 @@ import (
 	"image/color"
 	"testing"
 
-	. "github.com/hajimehoshi/ebiten"
+	. "github.com/dave/ebiten"
 )
 
 func TestColorMInit(t *testing.T) {

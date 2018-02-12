@@ -19,7 +19,7 @@
 package mobile
 
 import (
-	"github.com/hajimehoshi/ebiten"
+	"github.com/dave/ebiten"
 )
 
 func update() error {

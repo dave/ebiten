@@ -15,8 +15,8 @@
 package restorable
 
 import (
-	"github.com/hajimehoshi/ebiten/internal/graphics"
-	"github.com/hajimehoshi/ebiten/internal/sync"
+	"github.com/dave/ebiten/internal/graphics"
+	"github.com/dave/ebiten/internal/sync"
 )
 
 // restoringEnabled indicates if restoring happens or not.

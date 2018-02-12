@@ -20,7 +20,7 @@ import (
 	"image/color/palette"
 	"testing"
 
-	. "github.com/hajimehoshi/ebiten/internal/restorable"
+	. "github.com/dave/ebiten/internal/restorable"
 )
 
 func TestCopyImage(t *testing.T) {

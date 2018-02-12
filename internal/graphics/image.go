@@ -17,9 +17,9 @@ package graphics
 import (
 	"image"
 
-	"github.com/hajimehoshi/ebiten/internal/affine"
-	"github.com/hajimehoshi/ebiten/internal/math"
-	"github.com/hajimehoshi/ebiten/internal/opengl"
+	"github.com/dave/ebiten/internal/affine"
+	"github.com/dave/ebiten/internal/math"
+	"github.com/dave/ebiten/internal/opengl"
 )
 
 // Image represents an image that is implemented with OpenGL.

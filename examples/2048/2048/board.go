@@ -17,7 +17,7 @@ package twenty48
 import (
 	"errors"
 
-	"github.com/hajimehoshi/ebiten"
+	"github.com/dave/ebiten"
 )
 
 var taskTerminated = errors.New("twenty48: task terminated")

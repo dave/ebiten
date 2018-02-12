@@ -20,10 +20,10 @@ import (
 	"image/color"
 	"runtime"
 
-	"github.com/hajimehoshi/ebiten/internal/graphics"
-	"github.com/hajimehoshi/ebiten/internal/math"
-	"github.com/hajimehoshi/ebiten/internal/opengl"
-	"github.com/hajimehoshi/ebiten/internal/restorable"
+	"github.com/dave/ebiten/internal/graphics"
+	"github.com/dave/ebiten/internal/math"
+	"github.com/dave/ebiten/internal/opengl"
+	"github.com/dave/ebiten/internal/restorable"
 )
 
 // Image represents a rectangle set of pixels.
@@ -83,7 +83,7 @@ func (i *Image) Fill(clr color.Color) error {
 //   * All ColorM values are same
 //   * All CompositeMode values are same
 //
-// For more performance tips, see https://github.com/hajimehoshi/ebiten/wiki/Performance-Tips.
+// For more performance tips, see https://github.com/dave/ebiten/wiki/Performance-Tips.
 //
 // DrawImage always returns nil as of 1.5.0-alpha.
 func (i *Image) DrawImage(img *Image, options *DrawImageOptions) error {

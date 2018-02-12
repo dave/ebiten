@@ -19,8 +19,8 @@ import (
 	"image/color"
 	"strings"
 
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/inpututil"
+	"github.com/dave/ebiten"
+	"github.com/dave/ebiten/inpututil"
 )
 
 type GamepadScene struct {

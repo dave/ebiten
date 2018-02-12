@@ -28,8 +28,8 @@ import (
 
 	"github.com/go-gl/glfw/v3.2/glfw"
 
-	"github.com/hajimehoshi/ebiten/internal/devicescale"
-	"github.com/hajimehoshi/ebiten/internal/opengl"
+	"github.com/dave/ebiten/internal/devicescale"
+	"github.com/dave/ebiten/internal/opengl"
 )
 
 type userInterface struct {

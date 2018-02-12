@@ -23,8 +23,8 @@ import (
 
 	"github.com/gopherjs/gopherjs/js"
 
-	"github.com/hajimehoshi/ebiten/internal/devicescale"
-	"github.com/hajimehoshi/ebiten/internal/opengl"
+	"github.com/dave/ebiten/internal/devicescale"
+	"github.com/dave/ebiten/internal/opengl"
 )
 
 var canvas *js.Object

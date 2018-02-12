@@ -23,7 +23,7 @@ import (
 	"github.com/gopherjs/gopherjs/js"
 	"github.com/gopherjs/webgl"
 
-	"github.com/hajimehoshi/ebiten/internal/web"
+	"github.com/dave/ebiten/internal/web"
 )
 
 // Note that `type Texture *js.Object` doesn't work.

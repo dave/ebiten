@@ -17,8 +17,8 @@ package main
 import (
 	"log"
 
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/examples/2048/2048"
+	"github.com/dave/ebiten"
+	"github.com/dave/ebiten/examples/2048/2048"
 )
 
 var (

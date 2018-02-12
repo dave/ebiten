@@ -21,11 +21,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/internal/affine"
-	"github.com/hajimehoshi/ebiten/internal/graphics"
-	"github.com/hajimehoshi/ebiten/internal/opengl"
-	. "github.com/hajimehoshi/ebiten/internal/restorable"
+	"github.com/dave/ebiten"
+	"github.com/dave/ebiten/internal/affine"
+	"github.com/dave/ebiten/internal/graphics"
+	"github.com/dave/ebiten/internal/opengl"
+	. "github.com/dave/ebiten/internal/restorable"
 )
 
 func TestMain(m *testing.M) {

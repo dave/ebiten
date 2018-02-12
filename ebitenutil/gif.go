@@ -17,7 +17,7 @@ package ebitenutil
 import (
 	"io"
 
-	"github.com/hajimehoshi/ebiten"
+	"github.com/dave/ebiten"
 )
 
 // RecordScreenAsGIF is deprecated as of version 1.6.0-alpha.

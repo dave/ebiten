@@ -44,10 +44,10 @@ import (
 
 	"github.com/hajimehoshi/oto"
 
-	"github.com/hajimehoshi/ebiten/internal/clock"
-	"github.com/hajimehoshi/ebiten/internal/hooks"
-	"github.com/hajimehoshi/ebiten/internal/sync"
-	"github.com/hajimehoshi/ebiten/internal/web"
+	"github.com/dave/ebiten/internal/clock"
+	"github.com/dave/ebiten/internal/hooks"
+	"github.com/dave/ebiten/internal/sync"
+	"github.com/dave/ebiten/internal/web"
 )
 
 type players struct {

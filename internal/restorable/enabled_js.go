@@ -17,7 +17,7 @@
 package restorable
 
 import (
-	"github.com/hajimehoshi/ebiten/internal/web"
+	"github.com/dave/ebiten/internal/web"
 )
 
 func init() {

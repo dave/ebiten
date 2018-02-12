@@ -20,10 +20,10 @@ import (
 	"image/color"
 	"runtime"
 
-	"github.com/hajimehoshi/ebiten/internal/affine"
-	"github.com/hajimehoshi/ebiten/internal/graphics"
-	"github.com/hajimehoshi/ebiten/internal/math"
-	"github.com/hajimehoshi/ebiten/internal/opengl"
+	"github.com/dave/ebiten/internal/affine"
+	"github.com/dave/ebiten/internal/graphics"
+	"github.com/dave/ebiten/internal/math"
+	"github.com/dave/ebiten/internal/opengl"
 )
 
 // MaxImageSize represents the maximum width/height of an image.

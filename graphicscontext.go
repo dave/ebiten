@@ -17,11 +17,11 @@ package ebiten
 import (
 	"math"
 
-	"github.com/hajimehoshi/ebiten/internal/clock"
-	"github.com/hajimehoshi/ebiten/internal/hooks"
-	"github.com/hajimehoshi/ebiten/internal/restorable"
-	"github.com/hajimehoshi/ebiten/internal/ui"
-	"github.com/hajimehoshi/ebiten/internal/web"
+	"github.com/dave/ebiten/internal/clock"
+	"github.com/dave/ebiten/internal/hooks"
+	"github.com/dave/ebiten/internal/restorable"
+	"github.com/dave/ebiten/internal/ui"
+	"github.com/dave/ebiten/internal/web"
 )
 
 func newGraphicsContext(f func(*Image) error) *graphicsContext {

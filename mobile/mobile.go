@@ -14,11 +14,11 @@
 
 // Package mobile provides functions for mobile platforms (Android and iOS).
 //
-// For usage, see https://github.com/hajimehoshi/ebiten/wiki/Mobile, https://github.com/hajimehoshi/ebiten/wiki/Android and https://github.com/hajimehoshi/ebiten/wiki/iOS.
+// For usage, see https://github.com/dave/ebiten/wiki/Mobile, https://github.com/dave/ebiten/wiki/Android and https://github.com/dave/ebiten/wiki/iOS.
 package mobile
 
 import (
-	"github.com/hajimehoshi/ebiten"
+	"github.com/dave/ebiten"
 )
 
 // Start starts the game and returns immediately.
@@ -73,7 +73,7 @@ func Update() error {
 //
 // The coodinate x/y is in dp.
 //
-// For more details, see https://github.com/hajimehoshi/ebiten/wiki/Android.
+// For more details, see https://github.com/dave/ebiten/wiki/Android.
 func UpdateTouchesOnAndroid(action int, id int, x, y int) {
 	updateTouchesOnAndroid(action, id, x, y)
 }
@@ -110,7 +110,7 @@ func UpdateTouchesOnAndroid(action int, id int, x, y int) {
 //
 // The coodinate x/y is in point.
 //
-// For more details, see https://github.com/hajimehoshi/ebiten/wiki/iOS.
+// For more details, see https://github.com/dave/ebiten/wiki/iOS.
 func UpdateTouchesOnIOS(phase int, ptr int64, x, y int) {
 	updateTouchesOnIOSImpl(phase, ptr, x, y)
 }

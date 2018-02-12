@@ -18,9 +18,9 @@
 package inpututil
 
 import (
-	"github.com/hajimehoshi/ebiten"
-	"github.com/hajimehoshi/ebiten/internal/hooks"
-	"github.com/hajimehoshi/ebiten/internal/sync"
+	"github.com/dave/ebiten"
+	"github.com/dave/ebiten/internal/hooks"
+	"github.com/dave/ebiten/internal/sync"
 )
 
 type inputState struct {

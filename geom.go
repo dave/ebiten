@@ -15,7 +15,7 @@
 package ebiten
 
 import (
-	"github.com/hajimehoshi/ebiten/internal/affine"
+	"github.com/dave/ebiten/internal/affine"
 )
 
 // GeoMDim is a dimension of a GeoM.
